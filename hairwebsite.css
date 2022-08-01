@@ -1,0 +1,102 @@
+body {
+	font-family: Lucida Sans Typewriter;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 30px;
+	text-align: center;
+}
+
+
+p {
+	line-height: 1.2;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: black;
+	text-align: center;
+	color: white;
+	z-index: 1;
+	margin: 0 auto;
+}
+
+ul {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+li {
+		font-weight: 100;
+	  letter-spacing: 2px;
+	  font-size: 20px;
+	    padding: 25px;
+	  display: inline-block;
+}
+
+a {
+	color: white;
+}
+.content h1 {
+	text-align: center;
+	font-size: 60px;
+	color: whitesmoke;
+	font-family: 'Trebuchet MS', sans-serif;
+  	position: relative;
+  	top: 50px;
+}
+
+.services {
+	padding: 25px;
+}
+.services h3 {
+	font-family: 'Trebuchet MS', sans-serif;
+}
+.services h2 {
+	font-family: 'Trebuchet MS', sans-serif;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.aboutme {
+	background-color: black;
+	color: white;
+	padding: 25px;
+	margin: 0 auto;
+}
+.aboutme p{
+	padding-right: 50%;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+.image {
+	width: 30%;
+	height: auto;
+	position: absolute;
+	right: 150px;
+}
+
+.location {
+	padding: 25px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#banner {
+	background-image: url(hairpic.jpeg);
+	background-position: center;
+	background-size: cover;
+	width: 60%;
+	height: 700px;
+	margin: 0 auto;
+	position: relative;
+	top: 30px;
+}
